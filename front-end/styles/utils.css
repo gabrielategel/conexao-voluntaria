@@ -1,15 +1,13 @@
-main {
+* {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #238EF9;
+    padding: 0;
     margin: 0 auto;
-    display: flex;
-    height: 100%;
-    padding-top: 9%;
+    overflow: hidden;
 }
 
-/* .container {
-    display: flex;
-} */
+body {
+    background-color: #238EF9;
+}
 
 img#fundoHeader {
 	max-width: 100%;
@@ -30,3 +28,8 @@ img#fundoHeader {
     overflow: hidden;
     z-index: 10;
 }
+
+.submit-button {
+    padding: 1px 0;
+}
+
