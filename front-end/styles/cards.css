@@ -1,0 +1,137 @@
+.cards {
+    display: flex;
+    gap: 2rem;
+}
+
+.container-search-bar {
+    background-color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+}
+
+main {
+    height: 60%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.container-search-bar {
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.login-header {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    background: white;
+    height: auto !important;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25rem;
+    width: 20rem;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.container-items {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 75%;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+button, a, p, h1 {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    background-color: transparent;
+}
+
+input {
+    background: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #949494;
+    margin-top: 8px;
+}
+
+.text-input {
+    background: white;
+    font-size: 1rem;
+}
+
+.form {
+    margin: 0;
+}
+
+.remember {
+    text-align: end;
+}
+
+.confirm-button {
+    border-radius: 5px;
+    padding: 10px 8px;
+    background-color: #238EF9;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    max-width: 200px;
+}
+
+.sigin-button {
+    border-radius: 5px;
+    padding: 10px 8px;
+    border: 1px solid #949494;
+    background-color: transparent;
+    color: #949494;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    max-width: 200px;
+}
+
+
+.forgotten-password {
+    border: none;
+    background-color: transparent;
+    color: blue;
+    text-decoration: underline;
+    text-align: end;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-span {
+    margin-top: 1rem;
+}
