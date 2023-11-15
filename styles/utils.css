@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #238EF9;
+    background-color: #238EF9 !important;
 }
 
 img#fundoHeader {
