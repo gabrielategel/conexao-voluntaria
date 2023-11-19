@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="./styles/utils.css">
-    <link rel="stylesheet" href="./styles/cards.css">
+    <!-- <link rel="stylesheet" href="./styles/cards.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <title>Página da Instituição</title>
 </head>
 <body>
@@ -15,33 +18,108 @@
         </div>
     </header>
     <main>
+        <div class="col-sm-12">
+            <nav class="navbar navbar-expand-lg" style="background-color: #238EF9; box-shadow: 1rem;">
+                <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-left" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="inicio.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Minhas Conexões</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Vagas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Notícias</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex align-self-end" role="search">
+                        <input class="form-control me-auto" type="search" placeholder="Buscar" aria-label="Search">
+                    </form>
+                </div>
+                </div>
+            </nav>
+        </div>
         <div class="container">
-            <div class="menu">
-                <div class="options"></div>
-                <div class="search-bar"></div>
+            <div class="title-container">
+                <h1>Página da Instituição</h1>
             </div>
 
-            <div class="demandas">
-                <div class="cards">
-                    <div class="card1">
-                        <h2>Demandas em aberto</h2>
-                        <div class="card"></div>
+            <form action="">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="card" id="demandas">
+                            <h5 class="card-header bg-primary">
+                                Oportunidades
+                            </h5>
+                            <div class="card-body">
+                                <div class="col-sm-12">
+                                    <div class="card m-2">
+                                        <div class="card-body">
+                                           <p><strong>Demanda</strong>: Conserto de Tomada Elétrica</p>
+                                           <p><strong>Requisitos</strong>: Curso técnico em elétrica</p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button class="btn btn-success">Saiba mais</button>  
+                                        </div>
+                                    </div>
+                                    <div class="card m-2">
+                                        <div class="card-body">
+                                           <p><strong>Demanda</strong>: Corte de Grama</p>
+                                           <p><strong>Requisitos</strong>: Equipamento de corte</p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button class="btn btn-success">Saiba mais</button>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header bg-primary">
+                                <h5 >
+                                    Sobre a instituição
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <p><strong>Instituição:</strong> Demo Instituição</p>
+                                <p>A instituição ajuda a comunidade com os mais diversos serviços.</p>
+                            </div>
+                            <div class="card-footer">
+                               
+                                <div class="col-sm-12 d-grid gap-2">
+                                    <button class="btn btn-success btn-lg">Configurações</button>
 
-                    <div class="card2">
-                        <h2>Detalhes da demanda</h2>
-                        <div class="card"></div>
+                                    <button class="btn btn-primary btn-lg">Nova demanda</button>
+                                    <div class="row">
+                                        <button class="btn btn-secondary btn-lg col-sm-5 m-3">Fotos</button>
+
+                                        <button class="btn btn-secondary btn-lg col-sm-5 m-3">Vídeos</button>
+                                    </div>
+                                    <div class="row">
+
+                                    
+                                        <button class="btn btn-secondary btn-lg col-sm-5 m-3">Lojas</button>
+
+                                        <button class="btn btn-secondary btn-lg col-sm-5 m-3">Feed</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="acoes">
-                <button>Voluntariar</button>
-                <button>Compartilhar</button>
-                <button>Agendar</button>
-                <textarea placeholder="Observações" name="" id="" cols="30" rows="10"></textarea>
+             </form>
             </div>
         </div>
+    
     </main>
     <footer>
         <hr style="width: 100%;">
