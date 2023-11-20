@@ -29,6 +29,16 @@ h1 {
     margin-bottom: 2rem;
 }
 
+.search-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search-box-input {
+    margin-top: 0;
+}
+
 .login-header {
     display: flex;
     margin: 0 auto;
@@ -59,13 +69,20 @@ h1 {
     width: 75%;
     background-color: white;
     justify-content: space-evenly;
+    align-items: center;
 }
 
-button, a, p, h1 {
-    width: 100%;
+button, p, h1 {
     padding: 8px;
     text-align: center;
     background-color: transparent;
+}
+
+.pagina {
+    padding: 8px;
+    text-align: center;
+    background-color: transparent;
+    white-space: nowrap;
 }
 
 input {

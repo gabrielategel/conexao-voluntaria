@@ -1,0 +1,77 @@
+main {
+    height: auto;
+}
+
+.container {
+    width: 97vw;
+    height: 75vh;
+}
+
+.search-bar {
+    background-color: #C3E2FF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-voluntario {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex ;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.internal-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #C3E2FF;
+    width: 15%;
+    padding: 2rem;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.menu-button {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    background-color: #70BAFF;
+}
+
+.card {
+    background-color: #C3E2FF;
+    width: 37%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card-title {
+    background-color: #238EF9;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+    background-color: #70BAFF;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
